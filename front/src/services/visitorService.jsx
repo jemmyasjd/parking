@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/visitors';
+// const API_URL = 'http://localhost:3000/visitors';
+const API_URL = 'https://parking-eight-pearl.vercel.app/visitors';
 
 const getVisitors = async () => {
   const response = await axios.get(API_URL);
