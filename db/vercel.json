@@ -14,8 +14,5 @@
       "src": "/(.*)",
       "dest": "/"
     }
-  ],
-  "hooks": {
-    "build": "prisma generate"
-  }
+  ]
 }
