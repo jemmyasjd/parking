@@ -7,6 +7,6 @@ const router = express.Router();
 
 router.get('/', getVisitor);
 router.post('/', createVisitor);
-router.delete('/delete', deleteOldVisitors);
+router.get('/delete', deleteOldVisitors);
 
 module.exports = router;

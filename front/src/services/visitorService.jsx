@@ -15,7 +15,7 @@ const createVisitor = async (visitor) => {
 };
 
 const deleteVisitor = async () => {
-  const response = await axios.delete(`${API_URL}/delete`);
+  const response = await axios.get(`${API_URL}/delete`);
   return response.data;
 };
 
