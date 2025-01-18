@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0077cc;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .visitor-form, .visitor-list {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .visitor-form input, .visitor-form select, .visitor-form button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  
+  .visitor-form button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .visitor-form button:hover {
+    background-color: #005fa3;
+  }
+  
+  .visitor-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .visitor-list th, .visitor-list td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .visitor-list th {
+    background-color: #0077cc;
+    color: white;
+  }
+  
+  .visitor-list button {
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .visitor-list button:hover {
+    background-color: #a30000;
+  }
+  
